@@ -17,13 +17,20 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  align-items: normal;
+  justify-content: normal;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: "Roboto Mono", monospace;
 }
-
+.nameplate {
+  font-size: 69px;
+}
+.links {
+  font-size: 23px;
+  float: right;
+}
 .App-link {
   color: #61dafb;
 }
