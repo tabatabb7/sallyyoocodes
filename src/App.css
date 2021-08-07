@@ -14,14 +14,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: whitesmoke;
   min-height: 100vh;
   display: flex;
   flex-direction: row;
-  align-items: normal;
-  justify-content: normal;
+  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #5c917a;
   font-family: "Roboto Mono", monospace;
 }
 .nameplate {
@@ -34,7 +33,14 @@
 .App-link {
   color: #61dafb;
 }
-
+.aboutme {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #5c917a;
+  background-color: whitesmoke;
+  width: 40%;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
