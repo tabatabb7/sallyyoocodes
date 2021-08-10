@@ -3,7 +3,7 @@ import "./App.css";
 import splash from "./splash.png";
 
 const About = () => (
-  <div className="App">
+  <div id="top" className="App">
     <img
       src={splash}
       alt="woman looking through binoculars"

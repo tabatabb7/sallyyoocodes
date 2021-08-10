@@ -35,7 +35,7 @@ const Header = () => (
     <div className="title">
       <div className="nameplate">
         <h1 className="header">
-          <a href="/" id="top">
+          <a onClick={() => initScroll("top")} href="#top">
             SALLY YOO
           </a>
         </h1>
