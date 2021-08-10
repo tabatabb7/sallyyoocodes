@@ -19,6 +19,14 @@
   padding-top: 1rem;
   padding-right: 40px;
 }
+a:link {
+  color: #5c917a;
+  font-family: "Roboto Mono", monospace;
+}
+a:visited {
+  color: #5c917a;
+  font-family: "Roboto Mono", monospace;
+}
 .links {
   font-size: 23px;
   float: right;
