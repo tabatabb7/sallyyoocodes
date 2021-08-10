@@ -47,11 +47,13 @@ const Header = () => (
             <a onClick={() => initScroll("projects")} href="#projects">
               PROJECTS
             </a>
-            <p>//</p>
+            <br />
+            <br />
             <a onClick={() => initScroll("experience")} href="#experience">
               EXPERIENCE
             </a>
-            <p>//</p>
+            <br />
+            <br />
             <a href="mailto:yoosallyh@gmail.com?subject=HELLO!">CONTACT</a>
           </div>
         </nav>

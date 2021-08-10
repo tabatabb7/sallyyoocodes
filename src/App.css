@@ -16,6 +16,11 @@
   color: #5c917a;
   font-family: "Roboto Mono", monospace;
 }
+h1 > a {
+  font-size: 60px;
+  font-weight: 600;
+}
+
 .nameplate {
   font-size: 69px;
   padding-top: 1rem;
@@ -38,7 +43,7 @@ a:hover {
 .links {
   font-size: 23px;
   float: right;
-  padding-top: 4rem;
+  padding-top: 6rem;
   font-weight: 700;
 }
 
